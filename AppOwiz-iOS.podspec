@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
  s.author       = { "AppOwiz Team" => "techsupport@appowiz.com" }
  s.platform     = :ios
  s.ios.deployment_target = "9.0"
- s.source       = {:git => "https://github.com/AppOwiz/AppOwiz-iOS.git" }
+s.source       = {:git => "https://github.com/AppOwiz/AppOwiz-iOS.git" :branch => "master", :tag => 1.3 }
  s.requires_arc = true
 
  s.libraries = 'sqlite3.0','z'
