@@ -15,7 +15,7 @@ s.source       = {:git => "https://github.com/AppOwiz/AppOwiz-iOS.git" :tag => "
  s.requires_arc = true
 
  s.libraries = 'sqlite3.0','z'
- s.vendored_libraries = 'AA_HelloApp/appOwiz/AppOwiz.framework'
+ s.vendored_frameworks = 'AA_HelloApp/appOwiz/AppOwiz.framework'
 
  s.resource = "AA_HelloApp/appOwiz/*.bundle"
  s.source_files  = "AA_HelloApp/appOwiz/*.h", "AA_HelloApp/appOwiz/*.bundle"
