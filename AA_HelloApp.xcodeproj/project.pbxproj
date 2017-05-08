@@ -78,6 +78,7 @@
 		CEA00CB41B906D6D00A488FD /* TreesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA00CB31B906D6D00A488FD /* TreesVC.m */; };
 		CEA00CB71B90722E00A488FD /* CellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA00CB61B90722E00A488FD /* CellVC.m */; };
 		E62076AB1EA8B4B800E4F175 /* libAppOwiz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E62076AA1EA8B4B800E4F175 /* libAppOwiz.a */; };
+		E6FADE671EC0AB4000D9021F /* AppOwiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FADE661EC0AB4000D9021F /* AppOwiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -164,6 +165,7 @@
 		E62076AA1EA8B4B800E4F175 /* libAppOwiz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppOwiz.a; sourceTree = "<group>"; };
 		E66AC5CD1E927D6800D92252 /* libCrashReporter-iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCrashReporter-iphoneos.a"; path = "../../PLCrashReporterLib/libCrashReporter-iphoneos.a"; sourceTree = "<group>"; };
 		E66AC5CE1E927D6800D92252 /* libCrashReporter-iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCrashReporter-iphonesimulator.a"; path = "../../PLCrashReporterLib/libCrashReporter-iphonesimulator.a"; sourceTree = "<group>"; };
+		E6FADE661EC0AB4000D9021F /* AppOwiz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppOwiz.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				40A9BF141B9457640006B7B8 /* libz.dylib in Frameworks */,
 				E62076AB1EA8B4B800E4F175 /* libAppOwiz.a in Frameworks */,
 				40A9BF121B94574C0006B7B8 /* libsqlite3.0.dylib in Frameworks */,
+				E6FADE671EC0AB4000D9021F /* AppOwiz.framework in Frameworks */,
 				40A9BF0B1B9457390006B7B8 /* AudioToolbox.framework in Frameworks */,
 				40A9BF0C1B9457390006B7B8 /* AVFoundation.framework in Frameworks */,
 				40A9BF0D1B9457390006B7B8 /* CoreFoundation.framework in Frameworks */,
@@ -255,6 +258,7 @@
 		C3512D551C8AA0BD0091B1D8 /* appOwiz */ = {
 			isa = PBXGroup;
 			children = (
+				E6FADE661EC0AB4000D9021F /* AppOwiz.framework */,
 				E62076AA1EA8B4B800E4F175 /* libAppOwiz.a */,
 				C3512D561C8AA0BD0091B1D8 /* appOwiz.bundle */,
 				C3512D571C8AA0BD0091B1D8 /* AppOwiz.h */,
@@ -643,6 +647,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AA_HelloApp/QuincyKit",
 					"$(PROJECT_DIR)/AA_HelloApp",
+					"$(PROJECT_DIR)/AA_HelloApp/appOwiz",
 				);
 				INFOPLIST_FILE = AA_HelloApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -672,6 +677,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AA_HelloApp/QuincyKit",
 					"$(PROJECT_DIR)/AA_HelloApp",
+					"$(PROJECT_DIR)/AA_HelloApp/appOwiz",
 				);
 				INFOPLIST_FILE = AA_HelloApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
