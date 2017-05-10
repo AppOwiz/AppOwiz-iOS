@@ -1,0 +1,6 @@
+framework module AppOwiziOS {
+  umbrella header "AppOwiz.h"
+
+  export *
+  module * { export * }
+}

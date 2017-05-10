@@ -1,6 +1,0 @@
-framework module AppOwiz {
-  umbrella header "AppOwiz.h"
-
-  export *
-  module * { export * }
-}
